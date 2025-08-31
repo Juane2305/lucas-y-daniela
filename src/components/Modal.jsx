@@ -52,7 +52,7 @@ export const Modal = ({
       </button>
 
       {isOpen && (
-        <div className={`fixed inset-0 bg-[#1E3A8A]/70  backdrop-blur-md flex justify-center items-center z-50`} style={styleModal}>
+        <div className={`fixed inset-0 bg-orange-200/70  backdrop-blur-md flex justify-center items-center z-50`} style={styleModal}>
           <div className={`bg-white p-10 rounded-lg flex flex-col justify-center items-center border-2 ${borderModal}`} style={styleBorderModal}>
             <div className="flex flex-col justify-center text-center space-y-7 text-gray-900 w-full max-w-md ">
               <h2 className="font-bold text-2xl cursor-default">Datos Bancarios</h2>
